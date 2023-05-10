@@ -1,13 +1,19 @@
 # pretty-beatsaver
 Better colors for BeatSaver :)
 
-Brought to you by CBG.
+Brought to you by CBG
 
 ## CDN
-CSS available at `https://cdn.wsgs.tv/beatsaver.css`
+Updated CSS available at `https://cdn.wsgs.tv/beatsaver.css`
+
+It can be imported into any user CSS browser extension for automatic updates.
+
+```css
+@import('https://cdn.wsgs.tv/beatsaver.css');
+```
 
 ## TamperMonkey
-Create a script in TamperMonkey with the following contents of `script.js`, e.g.
+If you already have TamperMonkey or a similar extension installed, you can install the UserScript from `script.js`
 
 ```js
 // ==UserScript==
