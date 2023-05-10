@@ -1,4 +1,7 @@
 # pretty-beatsaver
+Better colors for BeatSaver :)
+
+Brought to you by CBG.
 
 ## CDN
 CSS available at `https://cdn.wsgs.tv/beatsaver.css`
