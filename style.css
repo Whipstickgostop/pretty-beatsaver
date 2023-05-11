@@ -19,7 +19,8 @@ a {
   padding: 2px;
 }
 
-.card.colored {
+.card.colored,
+.card.user-info {
   background-color: #262626;
   border: 1px solid #fafafa1f !important;
 }
