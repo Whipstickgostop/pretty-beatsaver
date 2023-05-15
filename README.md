@@ -1,6 +1,8 @@
 # pretty-beatsaver
 Better colors for BeatSaver :)
 
+![preview](preview.png)
+
 Brought to you by CBG
 
 ## CDN
