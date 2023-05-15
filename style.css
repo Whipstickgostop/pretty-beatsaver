@@ -19,17 +19,27 @@ a {
   padding: 2px;
 }
 
+.list-group .color {
+  background-color: #333;
+}
+
+.card,
 .card.colored,
 .card.user-info {
   background-color: #262626;
   border: 1px solid #fafafa1f !important;
 }
 
+.card .card-header {
+  background-color: #333;
+}
+
 .card.colored .content {
   padding-bottom: 5px !important;
 }
 
-.card.colored .content .info {
+.beatmap .card.colored .content .info,
+.playlist .card.colored .content .info {
   display: flex;
   flex-direction: column;
 }
@@ -63,7 +73,9 @@ a {
   color: #d4d4d4;
 }
 
-.card.colored .content .links > a > i.text-info {
+.card.colored .content .links > a > i.text-info,
+.card-header a > i.text-info,
+.buttons a > i.text-info {
   color: #a78bfa !important;
 }
 
